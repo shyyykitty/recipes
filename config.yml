@@ -1,0 +1,25 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "Recipes"
+theme: "PaperMod"
+
+menu:
+    main:
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 10
+        - identifier: search
+          name: search
+          url: /search/
+          weight: 20
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+params:          
+    homeInfoParams:
+        Content: Recipes!
