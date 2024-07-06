@@ -1,4 +1,4 @@
-baseURL: "http://example.org/"
+baseURL: "https://recipes.shyy.io/"
 languageCode: "en-us"
 title: "Recipes"
 theme: "PaperMod"
